@@ -1,0 +1,121 @@
+@font-face {
+	font-family: ChicagoMoonshine;
+	src: url(assets/fonts/ChicagoMoonshine.ttf);
+}
+
+body {
+	margin: 0;
+	background-color: #0f0f0f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+:root {
+	--background-square-size: calc(100vh / 21);
+}
+
+.background {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: #101010;
+	background-size: 100vw 100vh;
+	overflow: hidden;
+}
+
+.background-tile {
+	position: fixed;
+	margin-top: -50vh;
+	margin-left: -50vw;
+	width: max(200vw, 200vh);
+	height: max(200vw, 200vh);
+	image-rendering: pixelated;
+	will-change: transform;
+	opacity: 37%;
+}
+
+.background-dark-tile {
+	background: url('assets/images/backdrop/grid-tile-dark.png');
+	background-size: var(--background-square-size);
+	background-repeat: repeat;
+	animation: scrollDarkTile 1.33s linear infinite;
+}
+
+@keyframes scrollDarkTile {
+	from { transform: rotate(15deg) translate(0, 0); }
+	to { transform: rotate(15deg) translate(calc(1 * var(--background-square-size)), calc(1 * var(--background-square-size))); }
+}
+
+.background-light-tile {
+	background: url('assets/images/backdrop/grid-tile-light.png');
+	background-size: var(--background-square-size);
+	background-repeat: repeat;
+	animation: scrollLightTile 1.33s linear infinite;
+}
+
+@keyframes scrollLightTile {
+	from { transform: rotate(15deg) translate(0, 0); }
+	to { transform: rotate(15deg) translate(calc(-1 * var(--background-square-size)), calc(-1 * var(--background-square-size))); }
+}
+
+.background-overlay {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+.background-gradient {
+	background: radial-gradient(ellipse 100% 100% at bottom, #53faa2, transparent);
+	opacity: 30%;
+}
+
+.background-vignette {
+	background: radial-gradient(ellipse 150% 200% at bottom, transparent 0%, transparent 33%, #000000CC 100%);
+	opacity: 100%
+}
+
+
+
+
+
+
+.content {
+	text-align: center;
+	font-family: ChicagoMoonshine;
+	color: white;
+	position: relative;
+	margin-top: -5vh;
+}
+
+h1 {
+	margin: 0px;
+	font-weight: normal;
+	font-size: min(15vh, 20vw);
+}
+
+h2 {
+	margin: 0px;
+	margin-top: max(-2vh, -2.67vw);
+	font-weight: normal;
+	font-size: min(2.5vh, 3.33vw);
+	letter-spacing: min(0.825vh, 1.1vw);
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	gap: 6vh;
+	margin-top: 4vh;
+}
+
+.buttons img {
+	filter: brightness(75%);
+	height: 2.75vh;
+}
+
+.buttons img:hover {
+	filter: brightness(100%);
+}
