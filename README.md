@@ -48,9 +48,6 @@
 		<a href="https://github.com/Bitlett/Bitlett">
 			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=Bitlett&repo=Bitlett&theme=gotham&bg_color=1F222E&hide_border=true" alt="readme-typing-svg">
 		</a>
-		<a href="https://github.com/Bitlett/SteamHourFarmer">
-			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=Bitlett&repo=SteamHourFarmer&theme=gotham&bg_color=1F222E&hide_border=true" alt="readme-typing-svg">
-		</a>
 	</p>
 	<a href="https://github.com/Bitlett?tab=repositories&sort=stargazers">
 		<img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
