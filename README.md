@@ -46,7 +46,7 @@
 	<summary><h2>🏆 My Top Open Source Projects</h2></summary>
 	<p align="left">
 		<a href="https://github.com/Bitlett/Bitlett">
-			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=Bitlett&repo=Bitlett&theme=gotham&bg_color=1F222E&hide_border=true" alt="readme-typing-svg">
+			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=Bitlett&repo=Bitlett&theme=tokyonight&bg_color=1F222E&hide_border=true" alt="readme-typing-svg">
 		</a>
 	</p>
 	<a href="https://github.com/Bitlett?tab=repositories&sort=stargazers">
@@ -58,10 +58,10 @@
 	<summary><h2>🤝 Top Projects I've Contributed To</h2></summary>
 	<p align="left">
 		<a href="https://github.com/RedstoneTools/redstonetools-mod">
-			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=RedstoneTools&repo=redstonetools-mod&theme=gotham&bg_color=1F222E&hide_border=true" alt="redstonetools-mod">
+			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=RedstoneTools&repo=redstonetools-mod&theme=tokyonight&bg_color=1F222E&hide_border=true" alt="redstonetools-mod">
 		</a>
 		<a href="https://github.com/hppeng-wynn/hppeng-wynn.github.io">
-			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=hppeng-wynn&repo=hppeng-wynn.github.io&theme=gotham&bg_color=1F222E&hide_border=true" alt="hppeng-wynn">
+			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=hppeng-wynn&repo=hppeng-wynn.github.io&theme=tokyonight&bg_color=1F222E&hide_border=true" alt="hppeng-wynn">
 		</a>
 	</p>
 </details>
@@ -69,18 +69,18 @@
 <details> 
 	<summary><h2>📊 Stats and Activity</h2></summary>
 	<h3>🔥 Streak Stats</h3>
-	<img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Bitlett's streak" src="https://github-readme-streak-stats-eight.vercel.app/?user=Bitlett&theme=gotham&hide_border=true&short_numbers=true"/>
+	<img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Bitlett's streak" src="https://github-readme-streak-stats-eight.vercel.app/?user=Bitlett&theme=tokyonight&hide_border=true&short_numbers=true"/>
 	<p>🔥 Get streak stats for your profile at <a href="https://git.io/streak-stats">git.io/streak-stats</a></p>
 	<h3>💻 GitHub Profile Stats</h3>
 	<a href="https://github.com/anuraghazra/github-readme-stats">
-		<img alt="Bitlett's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=Bitlett&show_icons=true&include_all_commits=true&count_private=true&theme=gotham&hide_border=true&bg_color=1F222E" height="192px"/>
+		<img alt="Bitlett's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=Bitlett&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=1F222E" height="192px"/>
 	</a>
 	<a href="https://github.com/anuraghazra/github-readme-stats">
-		<img alt="Bitlett's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bitlett&langs_count=8&layout=compact&theme=gotham&hide_border=true&bg_color=1F222E&hide=Jupyter%20Notebook,Roff" height="192px"/>
+		<img alt="Bitlett's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bitlett&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=1F222E&hide=Jupyter%20Notebook,Roff" height="192px"/>
 	</a><br/>
 	<b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 	<!-- https://github.com/ashutosh00710/github-readme-activity-graph -->
-	<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Bitlett's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=Bitlett&theme=gotham&bg_color=1F222E&hide_border=true" /></a>
+	<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Bitlett's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=Bitlett&theme=tokyonight&bg_color=1F222E&hide_border=true" /></a>
 </details>
 
 <details open> 
