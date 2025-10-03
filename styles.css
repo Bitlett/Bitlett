@@ -68,7 +68,7 @@ body {
 }
 
 .background-gradient {
-	background: radial-gradient(ellipse 100% 100% at bottom, #53faa2, transparent);
+	background: radial-gradient(ellipse 100% 100% at bottom, #b653fa, transparent);
 	opacity: 30%;
 }
 
