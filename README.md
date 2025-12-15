@@ -48,6 +48,9 @@
 		<a href="https://github.com/Bitlett/Bitlett">
 			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=Bitlett&repo=Bitlett&theme=tokyonight&bg_color=1F222E&hide_border=true" alt="readme-typing-svg">
 		</a>
+		<a href="https://github.com/Bitlett/MSA">
+			<img width="278" src="https://github-readme-stats.vercel.app/api/pin/?username=Bitlett&repo=MSA&theme=tokyonight&bg_color=1F222E&hide_border=true" alt="readme-typing-svg">
+		</a>
 	</p>
 	<a href="https://github.com/Bitlett?tab=repositories&sort=stargazers">
 		<img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
@@ -88,6 +91,7 @@
 	<p>
 		<a href="https://github.com/search?q=user%3ABitlett+language%3Ac"><img alt="C" src="https://custom-icon-badges.demolab.com/badge/C-03599C.svg?logo=c-in-hexagon&logoColor=white"></a>
 		<a href="https://github.com/search?q=user%3ABitlett+language%3Acpp"><img alt="C++" src="https://custom-icon-badges.demolab.com/badge/C++-9C033A.svg?logo=cpp2&logoColor=white"></a>
+		<a href="https://github.com/search?q=user%3ABitlett+language%3Ac%23"><img alt="C#" src="https://custom-icon-badges.demolab.com/badge/C%23-6900ff.svg?logo=csharp1&logoColor=white"></a>
 		<a href="https://github.com/search?q=user%3ABitlett+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
 		<a href="https://github.com/search?q=user%3ABitlett+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
 		<a href="https://github.com/search?q=user%3ABitlett+language%3Ajava"><img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white"></a>
