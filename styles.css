@@ -68,7 +68,7 @@ body {
 }
 
 .background-gradient {
-	background: radial-gradient(ellipse 100% 100% at bottom, #b653fa, transparent);
+	background: radial-gradient(ellipse 100% 100% at bottom, #fa8153, transparent);
 	opacity: 30%;
 }
 
@@ -94,6 +94,31 @@ h1 {
 	margin: 0px;
 	font-weight: normal;
 	font-size: min(15vh, 20vw);
+	animation: h1-glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes h1-glow {
+	from {
+		text-shadow:
+				0 0 2px #ffffff30,
+				0 0 4px #ffffff30,
+				0 0 6px #e6b00030,
+				0 0 8px #e6a10030,
+				0 0 10px #e6910030,
+				0 0 12px #e6820030,
+				0 0 14px #e6730030;
+	}
+
+	to {
+		text-shadow:
+				0 0 4px #ffffff40,
+				0 0 6px #ffd54d40,
+				0 0 8px #ffc94d40,
+				0 0 10px #ffbe4d40,
+				0 0 12px #ffb24d40,
+				0 0 14px #ffa64d40,
+				0 0 16px #ff9a4d40;
+	}
 }
 
 h2 {
@@ -101,7 +126,28 @@ h2 {
 	margin-top: max(-2vh, -2.67vw);
 	font-weight: normal;
 	font-size: min(2.5vh, 3.33vw);
-	letter-spacing: min(0.825vh, 1.1vw);
+	letter-spacing: calc(min(0.825vh, 1.1vw)/1.55);
+	animation: h2-glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes h2-glow {
+	from {
+		text-shadow:
+				0 0 2px #ffffff30,
+				0 0 4px #ffffff30,
+				0 0 6px #e6b00030,
+				0 0 8px #e6a10030,
+				0 0 10px #e6910030;
+	}
+
+	to {
+		text-shadow:
+				0 0 4px #ffffff40,
+				0 0 6px #ffd54d40,
+				0 0 8px #ffc94d40,
+				0 0 10px #ffbe4d40,
+				0 0 12px #ffb24d40;
+	}
 }
 
 .buttons {
@@ -112,10 +158,10 @@ h2 {
 }
 
 .buttons img {
-	filter: brightness(75%);
+	filter: brightness(67%);
 	height: 2.75vh;
 }
 
 .buttons img:hover {
-	filter: brightness(100%);
+	filter: brightness(100%) drop-shadow(0 0 6px #ff9a4d80);
 }
