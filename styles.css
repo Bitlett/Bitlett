@@ -1,121 +1,154 @@
 @font-face {
-	font-family: ChicagoMoonshine;
-	src: url(assets/fonts/ChicagoMoonshine.ttf);
+	font-family: "8bitOperatorPlus-Bold";
+	src: url("https://deltarune.com/assets/fonts/8bitOperatorPlus-Bold.woff");
+}
+
+@font-face {
+	font-family: "8bitOperatorPlus-Regular";
+	src: url("https://deltarune.com/assets/fonts/8bitOperatorPlus-Regular.woff");
+}
+
+:root {
+	--border-opacity: 1;
+	--background-square-size: calc(100vh / 21);
 }
 
 body {
 	margin: 0;
-	background-color: #0f0f0f;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	overflow: hidden;
-}
-
-:root {
-	--background-square-size: calc(100vh / 21);
-}
-
-.background {
-	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background-color: #101010;
-	background-size: 100vw 100vh;
+	background-color: black;
+
+	display: flex;
+
+	flex-direction: row;
+	color: white;
 	overflow: hidden;
 }
 
-.background-tile {
-	position: fixed;
-	margin-top: -50vh;
-	margin-left: -50vw;
-	width: max(200vw, 200vh);
-	height: max(200vw, 200vh);
+.border-left,
+.border-right {
+	flex: 1 1 0;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: var(--border-opacity);
+}
+
+.border-left {
+	background-position: right center;
+	background-image: url('assets/images/backdrop/border-left.png')
+}
+
+.border-right {
+	background-position: left center;
+	background-image: url('assets/images/backdrop/border-right.png')
+}
+
+.content {
+	height: 100vh;
+	aspect-ratio: 4/3;
+	flex: 0 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.battle-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.battle-background-tile-dark, .battle-background-tile-light {
+	inset: -50%;
+	position: absolute;
+	width: 200%;
+	height: 200%;
 	image-rendering: pixelated;
 	will-change: transform;
 	opacity: 37%;
 }
 
-.background-dark-tile {
-	background: url('assets/images/backdrop/grid-tile-dark.png');
+.battle-background-tile-dark {
+	background: url('assets/images/backdrop/grid-tile-dark.png') 0 0 repeat;
 	background-size: var(--background-square-size);
 	background-repeat: repeat;
-	animation: scrollDarkTile 1.33s linear infinite;
+	animation: battle-background-tile-dark-animation 1.33s linear infinite;
 }
 
-@keyframes scrollDarkTile {
+@keyframes battle-background-tile-dark-animation {
 	from { transform: rotate(15deg) translate(0, 0); }
 	to { transform: rotate(15deg) translate(calc(1 * var(--background-square-size)), calc(1 * var(--background-square-size))); }
 }
 
-.background-light-tile {
+.battle-background-tile-light {
 	background: url('assets/images/backdrop/grid-tile-light.png');
 	background-size: var(--background-square-size);
 	background-repeat: repeat;
-	animation: scrollLightTile 1.33s linear infinite;
+	animation: battle-background-tile-light-animation 1.33s linear infinite;
 }
 
-@keyframes scrollLightTile {
+@keyframes battle-background-tile-light-animation {
 	from { transform: rotate(15deg) translate(0, 0); }
 	to { transform: rotate(15deg) translate(calc(-1 * var(--background-square-size)), calc(-1 * var(--background-square-size))); }
 }
 
-.background-overlay {
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
+.battle-background-gradient, .battle-background-vignette {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
-.background-gradient {
-	background: radial-gradient(ellipse 100% 100% at bottom, #b653fa, transparent);
+.battle-background-gradient {
+	background: radial-gradient(ellipse 100% 100% at bottom, #fa8153, transparent);
 	opacity: 30%;
 }
 
-.background-vignette {
+.battle-background-vignette {
 	background: radial-gradient(ellipse 150% 200% at bottom, transparent 0%, transparent 33%, #000000CC 100%);
 	opacity: 100%
 }
 
-
-
-
-
-
-.content {
-	text-align: center;
-	font-family: ChicagoMoonshine;
-	color: white;
-	position: relative;
-	margin-top: -5vh;
+.avatar {
+	position: absolute;
+	width: 100%;
+	filter: drop-shadow(0 0 8px rgba(255, 170, 100, 0.3));
+	animation: avatar-animation 3s ease-in-out infinite;
 }
 
-h1 {
-	margin: 0px;
-	font-weight: normal;
-	font-size: min(15vh, 20vw);
+@keyframes avatar-animation {
+	0%   { transform: translateY(0) rotate(-0.25deg); }
+	50%  { transform: translateY(-12px) rotate(0.25deg); }
+	100% { transform: translateY(0) rotate(-0.25deg); }
 }
 
-h2 {
-	margin: 0px;
-	margin-top: max(-2vh, -2.67vw);
-	font-weight: normal;
-	font-size: min(2.5vh, 3.33vw);
-	letter-spacing: min(0.825vh, 1.1vw);
-}
-
-.buttons {
+.gui {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 	display: flex;
-	justify-content: center;
-	gap: 6vh;
-	margin-top: 4vh;
+	flex-direction: column-reverse;
 }
 
-.buttons img {
-	filter: brightness(75%);
-	height: 2.75vh;
+.gui-heroes {
+	background-color: black;
+	height: 5vh;
+	border-top-style: solid;
+	border-top-width: 7px;
+	border-top-color: #302130;
 }
 
-.buttons img:hover {
-	filter: brightness(100%);
+.gui-textbox {
+	background-color: black;
+	height: 20vh;
+	border-top-style: solid;
+	border-top-width: 14px;
+	border-top-color: #302130;
+
+	padding-left: 48px;
+	padding-right: 48px;
+	font-family: "8bitOperatorPlus-Bold", monospace;
+	font-size: 48px;
+	text-shadow: 4px 4px #08065f;
 }
