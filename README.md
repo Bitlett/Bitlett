@@ -1,44 +1,4 @@
-<!-- Banner -->
-<p align="center">
-	<a href="https://bitlet.me">
-		<img src="assets/images/branding/profile-banner.gif">
-	</a>
-</p>
-
-<!-- Social Shields -->
-<p align="center">
-	<a href="https://www.youtube.com/@Bitlet_?sub_confirmation=1">
-		<img alt="YouTube Subscribers" title="Subscribe to my YouTube channel" src="https://img.shields.io/youtube/channel/subscribers/UCMry6qsMZQMLNSOZYjs2IJw?style=for-the-badge&logo=youtube&label=SUBSCRIBE&labelColor=ce4630&color=e05d44"/>
-	</a>
-	<a href="https://www.youtube.com/@Bitlet_">
-		<img alt="YouTube Views" title="YouTube Views" src="https://img.shields.io/youtube/channel/views/UCMry6qsMZQMLNSOZYjs2IJw?style=for-the-badge&logo=youtube&labelColor=c79600&color=e1ad0e"/>
-	</a> 
-	<a href="https://github.com/Bitlett?tab=repositories&sort=stargazers">
-		<img alt="GitHub Stars" title="GitHub Stars" src="https://img.shields.io/github/stars/Bitlett?style=for-the-badge&labelColor=488207&color=55960c"/>
-	</a>
-	<a href="https://github.com/Bitlett?tab=followers">
-		<img alt="GitHub Followers" title="Follow me on GitHub" src="https://img.shields.io/github/followers/Bitlett?style=for-the-badge&label=FOLLOW&labelColor=1155ba&color=236ad3"/>
-	</a>
-</p>
-
-<!-- Social Icons -->
-<p align="center">
-	<a href="https://bitlet.me">
-		<img width="32px" alt="My Website" title="My Website" src="assets/images/logos/soul.png">
-	</a>
-	&#8287;&#8287;&#8287;&#8287;&#8287;
-	<a href="https://youtube.bitlet.me">
-		<img width="32px" alt="YouTube" title="YouTube" src="assets/images/logos/youtube.png">
-	</a>
-	&#8287;&#8287;&#8287;&#8287;&#8287;
-	<a href="https://x.bitlet.me">
-		<img width="32px" alt="X" title="X" src="assets/images/logos/x.png">
-	</a>
-	&#8287;&#8287;&#8287;&#8287;&#8287;
-	<a href="https://github.bitlet.me">
-		<img width="32px" alt="GitHub" title="GitHub" src="assets/images/logos/github.png">
-	</a>
-</p>
+<h1>Bitlet</h1>
 
 <summary><h2>👨‍💻 My Favorite Languages</h2></summary>
 <p>
