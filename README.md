@@ -1,6 +1,11 @@
-<h1>Bitlet</h1>
+<!-- Banner -->
+<p align="center">
+	<a href="https://bitlet.me">
+		<img src="assets/images/branding/banner.png">
+	</a>
+</p>
 
-<summary><h2>👨‍💻 My Favorite Languages</h2></summary>
+<h2>👨‍💻 My Favorite Languages</h2>
 <p>
     <a href="https://github.com/search?q=user%3ABitlett+language%3Ac"><img alt="C" src="https://custom-icon-badges.demolab.com/badge/C-03599C.svg?logo=c-in-hexagon&logoColor=white"></a>
     <a href="https://github.com/search?q=user%3ABitlett+language%3Acpp"><img alt="C++" src="https://custom-icon-badges.demolab.com/badge/C++-9C033A.svg?logo=cpp2&logoColor=white"></a>
